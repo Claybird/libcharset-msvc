@@ -123,6 +123,7 @@
     <ClCompile>
       <AdditionalIncludeDirectories>$(ProjectDir)\source;$(ProjectDir)\source\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
